@@ -1,10 +1,26 @@
 import React from "react";
-
+import './style.css';
 const Header =()=>
 {
     return(
         <>
-        <h1>header</h1>
+        <div className="header">
+            <div className="navbar">
+                <div className="logo">
+                    <img src="https://tinyview.com/assets/images/tinyview-logo.png"></img>
+                    </div>
+                    
+                    <div className="account">
+                        <button className="acc_button">
+                        <img src="https://tinyview.com/assets/images/user_icon.png"></img>
+
+                        </button>
+                        
+                    </div>
+                    
+            </div>
+            
+        </div>
         </>
     )
 }

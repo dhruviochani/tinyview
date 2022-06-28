@@ -1,0 +1,44 @@
+.header{
+    /* display: flex; */
+    padding-right: 12px;
+    padding-left: 12px;
+background: rgb(165, 52, 52);
+border-bottom: 1px;
+border-color: aqua
+};
+ .navbar{
+    /* display: flex; */
+    padding-left: 200%;
+   
+    background: transparent;
+ }
+
+ .logo img{
+    float: left;
+    width: 150px;
+    padding: 10px 0;
+    margin-left: 10px;
+ }
+
+ .account {
+    float: right;
+ }
+
+.acc_button img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding-top: 5px;
+    vertical-align: middle;
+    display: inline-block;
+ }
+
+ .acc_button{
+    cursor: pointer;
+    background:transparent;
+    border-color: transparent;
+    
+ };
+
+
+  
