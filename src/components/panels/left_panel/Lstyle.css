@@ -13,9 +13,9 @@ div {
     height: inherit;
     position: fixed;
     left: 0;
-    top: 80;
+    /* top: 80; */
     padding-left: 285px;
-    padding-top: 76px;
+    /* padding-top: 76px; */
     
 }
 
@@ -152,9 +152,6 @@ a{
     width: 20px;
 }
 
-.text_container{
-
-}
 
 .text{
     color: #999;
@@ -173,9 +170,7 @@ b{
     font-weight: 700; 
 }
 
-.functions_container{
 
-}
 
 .func_navbar{
     display: flex;

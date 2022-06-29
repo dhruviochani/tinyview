@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+.rpanel_container{
+    margin-left: 50%;
+    margin-top: 75px;
+    padding-right: 270px;
+    border-left: 1px solid #e7e5df;
+    width: 50%;
+    padding-bottom: 20px;
+    flex:1;
+    /* padding-top: 76px; */
+
+}
+
+.top_container{
+    margin-top: 30px;
+}
+
+.title1{
+    
+    align-items: center;
+    color: #101010;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: flex-start;
+    line-height: 20px;
+    padding: 0 10px 0 30px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+}

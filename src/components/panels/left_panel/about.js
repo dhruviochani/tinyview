@@ -1,7 +1,7 @@
 import React from "react";
 import './Lstyle.css';
 
-const About = () => {
+const LeftPanel = () => {
     return (
         <>
             <div className="container">
@@ -88,4 +88,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default LeftPanel;
