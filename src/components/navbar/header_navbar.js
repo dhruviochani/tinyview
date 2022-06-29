@@ -4,6 +4,7 @@ const Header =()=>
 {
     return(
         <>
+        <div className="header_sticky">
         <div className="header">
             <div className="navbar">
                 <div className="logo">
@@ -20,6 +21,7 @@ const Header =()=>
                     
             </div>
             
+        </div>
         </div>
         </>
     )

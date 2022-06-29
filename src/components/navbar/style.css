@@ -1,0 +1,56 @@
+.header_sticky{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #e7e5df;
+    
+}
+ .header{
+    width: 100%;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: auto;
+    flex: 1;
+    -o-object-fit: fill;
+    object-fit: fill;
+    
+ }
+
+ .logo img{
+    width: 200px;
+    padding: 10px 0 15px;
+    margin-left: 10px;
+
+    
+    /* max-width: 100% */
+ }
+
+ .account {
+    float: right;
+ }
+
+.acc_button img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+ }
+
+.acc_button{
+    cursor: pointer;
+    background:transparent;
+    border-color: transparent;
+    
+ }
+
+
+  
