@@ -21,7 +21,9 @@ const RightPanel = () => {
                         <div className="space">
                         </div>
                     </div>
+
                 </div>
+                
                 <div className="comic_container">
                     <div className="comic_panel">
                         <div className="post_container">
@@ -98,9 +100,7 @@ const RightPanel = () => {
                         </div>
                     </div>
                 </div>
-             
-
-             
+            
                 <div className="comic_container">
                     <div className="comic_panel">
                         <div className="post_container">
