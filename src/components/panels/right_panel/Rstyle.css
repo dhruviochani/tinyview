@@ -6,6 +6,24 @@ div{
     display: block;
 }
 
+img{
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 300;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
 .rpanel_container{
     margin-left: 50%;
     margin-top: 75px;
@@ -19,7 +37,7 @@ div{
 }
 
 .top_container{
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .title1{
@@ -33,4 +51,197 @@ div{
     line-height: 20px;
     padding: 0 10px 0 30px;
     font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    padding: 10px 30px;
+}
+
+.switch_panel{
+    display: flex;
+}
+
+.switch_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    padding: 10px 30px;  
+}
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 28px;
+    margin-top: 5px;
+}
+
+.slider{
+    background-color: #f23545;
+    border-radius: 34px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #ccc; */
+    transition: .4s;
+    height: auto;
+}
+
+.space{
+    margin: 0px 30px;
+}
+
+.comic_panel{
+    border-top: 1px solid rgb(222, 223, 224);
+    border-right: 1px none;
+    border-bottom: 1px none;
+    border-left: 1px none;
+    margin: 10px 0px;
+}
+
+.post_container{
+    margin: 30px;
+}
+
+.profile_pic{
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile_img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    border: 1px solid #dedfe0;
+}
+
+.user_info{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.username{
+    padding: 10px 10px 0;
+    align-items: center;
+    color: #f23545;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.date_time{
+    color: #999;
+    padding: 0 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -3px;
+}
+
+.comic_desc{
+    color: #101010;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    word-break: normal;
+    padding: 15px 10px;
+    margin-top: -15px;
+}
+
+.cover_img{
+    width: 800px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid #e7e5df;
+    border-left: 1px solid #e7e5df;
+    border-right: 1px solid #e7e5df;
+}
+
+.about_comic{
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #dedfe0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid #dedfe0;
+    border-right: 1px solid #dedfe0;
+    border-top: 1px solid #dedfe0;
+}
+
+.url_page{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comic_title{
+    color: #101010;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.like_views{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-bottom: 1px solid #dedfe0;
+}
+
+.heart{
+ cursor:pointer;
+}
+
+.heart_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.like_count{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comic_views{
+    margin-left: auto;
+    padding-right:20px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.comments{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.actions_cont{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 0;
+}
+
+.action_img{
+    margin-right: 2px;
+    vertical-align: bottom;
+    height: 25px;
+    cursor: pointer;
 }
