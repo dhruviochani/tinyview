@@ -12,8 +12,15 @@ const RightPanel = () => {
                     <div className="description">From all artists</div>
                     <div className="switch_panel">
                         <div className="switch_text">Turn off to only see artists you follow</div>
-                        <div className="switch">
-                            <div >slider</div>
+                        <div className="switch_cont">
+                            {/* <div >slider</div> */}
+                            <label class="switch">
+                                <input type="checkbox">
+
+                                </input>
+                                    <span class="slider_round">
+                                        </span>
+                                        </label>
                             {/* <input type="checkbox" className="switch">
                         <span className="slider"> </span>
                     </input> */}
@@ -23,7 +30,7 @@ const RightPanel = () => {
                     </div>
 
                 </div>
-                
+
                 <div className="comic_container">
                     <div className="comic_panel">
                         <div className="post_container">
@@ -38,7 +45,7 @@ const RightPanel = () => {
                                     <p className="date_time">Thu, Jun 30,2022 . 10:01 AM</p>
                                 </div>
                                 <div className="comic_desc">
-                                Frankie and Ollie meet up to assess the latest paranormal freakiness
+                                    Frankie and Ollie meet up to assess the latest paranormal freakiness
                                 </div>
                             </div>
                             <div className="post_middle_cont">
@@ -100,7 +107,7 @@ const RightPanel = () => {
                         </div>
                     </div>
                 </div>
-            
+
                 <div className="comic_container">
                     <div className="comic_panel">
                         <div className="post_container">
